@@ -6,6 +6,7 @@ This is basic rest client that requests to ChatGPT API.
 
 - Spring Boot 3.1.1
 - Java 17
+- Maven
 
   # Notes
   - You should enter api key to application.properties file in resource folder.

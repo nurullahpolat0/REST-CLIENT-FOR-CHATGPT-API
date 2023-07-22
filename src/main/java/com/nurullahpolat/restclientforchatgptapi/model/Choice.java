@@ -2,6 +2,10 @@ package com.nurullahpolat.restclientforchatgptapi.model;
 
 import com.nurullahpolat.restclientforchatgptapi.dto.MessageDTO;
 
+/**
+ * @author Nurullah Polat
+ *
+ */
 public class Choice {
 	
 	private int index;

@@ -1,5 +1,12 @@
 package com.nurullahpolat.restclientforchatgptapi.dto;
 
+
+/**
+ * @author Nurullah Polat
+ * 
+ * Data Transfer Object class for messages.
+ *
+ */
 public class MessageDTO {
 	
 	private String role;

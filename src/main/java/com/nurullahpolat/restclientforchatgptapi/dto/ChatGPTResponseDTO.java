@@ -4,6 +4,12 @@ import java.util.List;
 
 import com.nurullahpolat.restclientforchatgptapi.model.Choice;
 
+/**
+ * @author Nurullah Polat
+ * 
+ * Data Transfer Object class for api response
+ *
+ */
 public class ChatGPTResponseDTO {
 
 	private List<Choice> choices;

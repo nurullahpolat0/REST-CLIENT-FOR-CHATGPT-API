@@ -15,6 +15,11 @@ import com.nurullahpolat.restclientforchatgptapi.dto.ChatGPTResponseDTO;
 @RequestMapping("/custombot")
 public class CustomPromptController {
 	
+	/**
+	 * We are reading chatgpt model values from application 
+	 * properties file with <code>@Value<code> annotation
+	 * 
+	 */
 	@Value("${openai.model}")
 	private String model;
 	
@@ -24,6 +29,13 @@ public class CustomPromptController {
 	@Autowired
 	private RestTemplate restTemplate;
 	
+	/**
+	 * The @GetMapping annotation is a composed version of @RequestMapping 
+	 * annotation that acts as a shortcut for @RequestMapping(method = RequestMethod. GET) . 
+	 * The @GetMapping annotated methods handle the HTTP GET requests 
+	 * matched with the given URI expression.
+	 * 
+	 */
 	@GetMapping("/chat")
 	public String chat(@RequestParam("prompt") String prompt) {
 		

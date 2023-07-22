@@ -3,6 +3,13 @@ package com.nurullahpolat.restclientforchatgptapi.dto;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * @author Nurullah Polat
+ * 
+ * Data Transfer Object class for api request
+ *
+ */
 public class ChatGPTRequestDTO {
 	
 	private String model;
